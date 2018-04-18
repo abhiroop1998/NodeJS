@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Setting Mac Address
         mac=findViewById(R.id.mac);
         macAdd=getMacAddr();
         mac.setText("Mac Address : \n"+macAdd);
